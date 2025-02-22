@@ -63,6 +63,12 @@ STORFLEET_SMPT_MAIL= google@gmail.com
 STORFLEET_SMPT_MAIL_PASSWORD = 1234567895412
 ```
 
+## Postman Collection
+You can access the Postman collection for Store Fleet using the link below:
+
+[Store Fleet Postman Collection](https://www.postman.com/solar-escape-571108/store-fleet/collection/itzxqph/storefleet)
+
+
 ## 🛠 API Endpoints
 
 ### **Auth Routes**
