@@ -1,0 +1,5 @@
+# Ignore environment 
+backend/config/uat.env
+
+# Node modules 
+node_modules/
