@@ -65,21 +65,36 @@ STORFLEET_SMPT_MAIL_PASSWORD = 1234567895412
 
 ## 🛠 API Endpoints
 
-### Auth Routes
+### **Auth Routes**
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Login user
-- `GET /api/auth/google` - Google OAuth
-- `GET /api/auth/github` - GitHub OAuth
 
-### Inventory Routes
-- `GET /api/inventory` - Fetch all items
-- `POST /api/inventory` - Add new item
-- `PUT /api/inventory/:id` - Update item
-- `DELETE /api/inventory/:id` - Delete item
+### **User Routes**
+- `GET /api/user/details` - Get User Details
+- `GET /api/user/logout` - Logout User
 
-## 📸 Screenshots
+## **Admin Routes**
+- `GET /api/admin/allusers` - Get ALl Users (Admin only)
+- `GET /api/admin/details/:id` - Get User Details (Admin only)
+- `DELETE /api/admin/delete/:id` - Delete User (Admin only)
+- `PUT /api/admin/update/:id` - Update User Role (Admin only)
 
-> Add screenshots here if needed
+### **Product Routes**
+- `GET /api/products` - Get All Products
+- `GET /api/details/:id` - Get Product Details
+- `GET /api/reviews/:id` - Get All Reviews for a Product
+
+### **Admin Product Routes**
+- `POST /api/add` - Add New Product (Admin only)
+- `PUT /api/update/:id` - Update Product (Admin only)
+- `DELETE /api/delete/:id` - Delete Product (Admin only)
+
+### **User Product Routes**
+- `PUT /api/rate/:id` - Rate a Product
+- `DELETE /api/review/delete` - Delete a Review
+
+### **Order Routes**
+- `POST /api/order/new` - Create a New Order
 
 ## 📜 License
 This project is licensed under the **MIT License**.
